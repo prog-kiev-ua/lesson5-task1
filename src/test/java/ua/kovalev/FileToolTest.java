@@ -15,7 +15,7 @@ class FileToolTest {
 
     @Test
     void testCopyFile() {
-        File fileSrc = new File("file1.txt");
+        File fileSrc = new File("file1.txt.txt");
         File fileDest = new File("file2.txt");
         String text = "Hello World";
 
